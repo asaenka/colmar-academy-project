@@ -426,6 +426,7 @@ html {
 
   .project-body__intro {
     flex-direction: column;
+    padding: 0;
   }
 
   .intro__image-container {
@@ -435,7 +436,8 @@ html {
   }
 
   .intro__text {
-    padding: 0 16px;
+    padding: 0 16px 32px;
+    margin: 0;
   }
 
   .intro__header {
@@ -447,8 +449,10 @@ html {
   }
 
   .intro__button {
+    margin-top: 24px;
     width: 100%;
-    margin: 24px 0 32px 0;
+
+    text-align: center;
   }
 
   .project-body__motivation {
