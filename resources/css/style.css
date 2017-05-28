@@ -126,18 +126,18 @@ html {
   text-decoration: none;
 }
 
-.motivation__rightblock {
+.latest-articles__left-section {
   width: 550px;
   padding: 32px 24px;
 }
 
-.rightblock__picture {
+.article-md__picture {
   display: block;
   width: 550px;
   height: 302px;
 }
 
-.rightblock__header {
+.article-md__header {
   margin-top: 32px;
 
   font-size: 32px;
@@ -145,7 +145,7 @@ html {
   color: #404040;
 }
 
-.rightblock__text {
+.article-md__text {
   margin-top: 24px;
 
   font-size: 14px;
@@ -153,7 +153,7 @@ html {
   line-height: 25px;
 }
 
-.rightblock__author {
+.article-md__author {
   margin-top: 24px;
 
   font-size: 12px;
@@ -161,7 +161,12 @@ html {
   line-height: 25px;
 }
 
-.motivation__leftblock {
+.latest-articles {
+  display: flex;
+  justify-content: space-between;
+}
+
+.latest-articles__right-section {
   display: flex;
   flex-direction: column;
   padding-bottom: 32px;
@@ -474,11 +479,11 @@ html {
     background-color: white;
   }
 
-  .motivation__rightblock {
+  .latest-articles__left-section {
     display: none;
   }
 
-  .motivation__leftblock {
+  .latest-articles__right-section {
     width: 100%;
   }
 
