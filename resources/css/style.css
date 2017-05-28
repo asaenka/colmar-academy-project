@@ -458,7 +458,7 @@ Other*/
 
   .intro__button {
     width: 100%;
-    margin-top: 24px;
+    margin: 24px 0 32px 0;
   }
 
   .project-body__motivation {
@@ -497,7 +497,7 @@ Other*/
   }
 
   .picture__info {
-    margin-top: 8px;
+    margin: 8px 0 0 16px;
   }
 
   .project-body__learning {
