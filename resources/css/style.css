@@ -365,7 +365,7 @@ html {
   color: #7D7D7D;
 }
 
-.footer__link {
+.footer-nav__link {
   margin-right: 16px;
 
   color: #7D7D7D;
@@ -508,7 +508,7 @@ html {
     border-top: none;
   }
 
-  .footer__links {
+  .footer__navigation {
     display: none;
   }
 
