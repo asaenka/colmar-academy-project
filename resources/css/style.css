@@ -230,7 +230,7 @@ html {
 }
 
 .learning__maintitle {
-  margin:32px 0 32px 0;
+  margin: 32px 0;
 
   font-size: 32px;
   font-weight: bold;
@@ -492,7 +492,7 @@ html {
   }
 
   .picture__info {
-    margin: 8px 0 0 16px;
+    padding: 8px 16px;
   }
 
   .project-body__learning {
@@ -557,6 +557,10 @@ html {
   .thesis__left,
   .thesis__wrapper {
     width: 100%;
+  }
+
+  .thesis__wrapper {
+    padding: 0;
   }
 
   .video__container {
