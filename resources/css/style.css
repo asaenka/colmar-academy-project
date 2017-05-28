@@ -1,6 +1,8 @@
 body {
   margin: 0;
   padding: 0;
+
+  font-family: Helvetica;
 }
 
 html {
@@ -43,19 +45,16 @@ html {
 }
 
 .header__company-colmar {
-  font-family: Helvetica;
   font-weight: bold;
 }
 
 .header__company-academy {
-  font-family: Helvetica;
   color: #D6D6D6;
 }
 
 .header__link {
   padding: 16px;
 
-  font-family: Helvetica;
   text-decoration: none;
   color: black;
 }
@@ -78,7 +77,6 @@ html {
 }
 
 .intro__header {
-  font-family: Helvetica;
   font-size: 32px;
   font-weight: bold;
   line-height: 35px;
@@ -92,7 +90,6 @@ html {
 .intro__text {
   margin-left: 40px;
 
-  font-family: Helvetica;
   font-size: 16px;
   line-height: 25px;
   color: #404040;
@@ -105,7 +102,6 @@ html {
 
   background-color: #404040;
 
-  font-family: Helvetica;
   font-weight: lighter;
   color: white;
   text-decoration: none;
@@ -128,7 +124,6 @@ html {
 .rightblock__header {
   margin: 32px 0 0 24px;
 
-  font-family: Helvetica;
   font-size: 32px;
   font-weight: bold;
   color: #404040;
@@ -137,7 +132,6 @@ html {
 .rightblock__text {
   margin: 24px 0 0 24px;
 
-  font-family: Helvetica;
   font-size: 14px;
   color: #7D7D7D;
   line-height: 25px;
@@ -146,7 +140,6 @@ html {
 .rightblock__author {
   margin: 24px 0 0 24px;
 
-  font-family: Helvetica;
   font-size: 12px;
   color: #7D7D7D;
   line-height: 25px;
@@ -191,7 +184,6 @@ html {
 .title {
   margin-bottom: 8px;
 
-  font-family: Helvetica;
   font-size: 24px;
   color: #404040;
 }
@@ -199,7 +191,6 @@ html {
 .info {
   margin-bottom: 8px;
 
-  font-family: Helvetica;
   font-size: 14px;
   line-height: 25px;
   color: #7D7D7D;
@@ -221,7 +212,6 @@ html {
 .learning__maintitle {
   margin:32px 0 32px 0;
 
-  font-family: Helvetica;
   font-size: 32px;
   font-weight: bold;
   line-height: 35px;
@@ -260,7 +250,6 @@ html {
 }
 
 .block__header {
-  font-family: Helvetica;
   font-size: 20px;
   line-height: 35px;
   color: #404040;
@@ -269,7 +258,6 @@ html {
 .block__courses {
   margin-top: 8px;
 
-  font-family: Helvetica;
   font-style: lighter;
   font-size: 16px;
   color: #7D7D7D;
@@ -278,7 +266,6 @@ html {
 .block__text {
   margin-top: 8px;
 
-  font-family: Helvetica;
   font-style: lighter;
   font-size: 14px;
   line-height: 25px;
@@ -300,7 +287,6 @@ html {
 .thesis__statement {
   margin: 32px 0;
 
-  font-family: Helvetica;
   font-size: 32px;
   font-weight: bold;
   line-height: 35px;
@@ -310,7 +296,6 @@ html {
 .left__header {
   margin: 24px 0 24px 24px;
 
-  font-family: Helvetica;
   font-size: 24px;
   font-weight: bold;
   color: #404040;
@@ -319,7 +304,6 @@ html {
 .left__text {
   margin: 24px 0 32px 24px;
 
-  font-family: Helvetica;
   font-size: 14px;
   color: #7D7D7D;
   line-height: 25px;
@@ -328,7 +312,6 @@ html {
 .right-block__header {
   margin-bottom: 8px;
 
-  font-family: Helvetica;
   font-size: 24px;
   color: #404040;
 }
@@ -505,7 +488,6 @@ html {
   }
 
   .mobile-course-card__title {
-    font-family: Helvetica;
     font-size: 18px;
     color: #404040;
     text-decoration: none;
