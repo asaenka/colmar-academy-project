@@ -78,15 +78,16 @@ html {
 }
 
 .intro__header {
-
   font-family: Helvetica;
   font-size: 32px;
   font-weight: bold;
   line-height: 35px;
 
-  margin-bottom: 10px;
-
   color: #404040;
+}
+
+.intro__subheader {
+  margin-top: 16px;
 }
 
 .intro__text {
@@ -103,9 +104,9 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-around;
-
   width: 260px;
   height: 41px;
+  margin-top: 16px;
 
   background-color: #404040;
 
@@ -446,16 +447,21 @@ Other*/
     margin: 0;
   }
 
-  .intro__header {
-    padding: 32px 0 32px 16px;
+  .intro__text {
+    padding: 0 16px;
   }
 
-  .intro__text {
-    padding: 0 0 24px 16px;
+  .intro__header {
+    margin-top: 32px;
+  }
+
+  .intro__subheader {
+    margin-top: 32px;
   }
 
   .intro__button {
-    margin: 0 0 16px 16px;
+    width: 100%;
+    margin-top: 24px;
   }
 
   .project-body__motivation {
