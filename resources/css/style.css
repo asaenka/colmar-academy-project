@@ -8,6 +8,10 @@ body {
   margin: 0 auto;
 }
 
+.mobile-header {
+  display: none;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -391,8 +395,31 @@ body {
   color: #7D7D7D;
   text-decoration: none;
 }
+
 /*• Block
 • Border
 • Background
 • Text
 Other*/
+
+@media (max-width: 599px) {
+  .home-page {
+    width: 100%;
+  }
+
+  .mobile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    padding: 0 16px;
+  }
+
+  .mobile-header__link {
+    text-decoration: none;
+  }
+
+  .header {
+    display: none;
+  }
+}
