@@ -247,6 +247,10 @@ html {
 
 }
 
+.mobile-course-card {
+  display: none;
+}
+
 .course-card {
   width: 264px;
   margin-bottom: 16px;
@@ -496,5 +500,34 @@ Other*/
   .project-body__learning {
     background-color: white;
     border-bottom: 1px solid #D6D6D6;
+  }
+
+  .course-card {
+    display: none;
+  }
+
+  .learning__wrapper {
+    padding: 0 16px;
+  }
+
+  .mobile-course-card {
+    display: block;
+    width: 100%;
+    padding: 16px;
+
+    background-color: #EBEBEB;
+  }
+
+  .mobile-course-card + .mobile-course-card {
+    margin-top: 16px;
+  }
+
+  .mobile-course-card__title {
+    font-family: Helvetica;
+    font-size: 24px;
+    color: #404040;
+    text-decoration: none;
+
+
   }
 }
