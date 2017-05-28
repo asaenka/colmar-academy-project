@@ -265,13 +265,13 @@ html {
   height: 180px;
 }
 
-.block__header {
+.course-card__header {
   font-size: 20px;
   line-height: 35px;
   color: #404040;
 }
 
-.block__courses {
+.course-card__courses {
   margin-top: 8px;
 
   font-style: lighter;
@@ -279,7 +279,7 @@ html {
   color: #7D7D7D;
 }
 
-.block__text {
+.course-card__text {
   margin-top: 8px;
 
   font-style: lighter;
