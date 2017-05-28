@@ -405,7 +405,6 @@ html {
 
 .video__container {
   width: 553px;
-  height: 385px;
 }
 
 /*• Block
@@ -556,6 +555,5 @@ Other*/
 
   .video__container {
     width: 100%;
-    height: 210px;
   }
 }
