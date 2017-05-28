@@ -44,7 +44,6 @@ html {
   align-items: center;
 }
 
-
 .logo__colmar {
   font-weight: bold;
 }
@@ -53,14 +52,14 @@ html {
   color: #D6D6D6;
 }
 
-.header__link {
+.nav__link {
   padding: 16px;
 
   text-decoration: none;
   color: black;
 }
 
-.header__link:hover {
+.nav__link:hover {
   opacity: 0.7;
 }
 
