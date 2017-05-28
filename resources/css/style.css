@@ -35,20 +35,21 @@ html {
   background-color: white;
 }
 
-.header__company {
-  display: flex;
-  align-items: center;
-}
-
 .header__logo {
   padding: 0 24px;
 }
 
-.header__company-colmar {
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+
+.logo__colmar {
   font-weight: bold;
 }
 
-.header__company-academy {
+.logo__academy {
   color: #D6D6D6;
 }
 
