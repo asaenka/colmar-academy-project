@@ -42,7 +42,7 @@ html {
   padding: 0 24px;
 }
 
-.header__company-colmar{
+.header__company-colmar {
   font-family: Helvetica;
   font-weight: bold;
 }
@@ -65,15 +65,15 @@ html {
   align-items: center;
   padding: 32px 24px;
 
-
   background-color: #D6D6D6;
 }
 
 .intro__image-container {
-  background-image: url('../images/banner.jpg');
-  width: 550px;
   flex-shrink: 0;
   height: 408px;
+  width: 550px;
+
+  background-image: url('../images/banner.jpg');
   background-size: cover;
 }
 
@@ -82,7 +82,6 @@ html {
   font-size: 32px;
   font-weight: bold;
   line-height: 35px;
-
   color: #404040;
 }
 
@@ -96,7 +95,6 @@ html {
   font-family: Helvetica;
   font-size: 16px;
   line-height: 25px;
-
   color: #404040;
 }
 
@@ -120,10 +118,9 @@ html {
 }
 
 .rightblock__picture {
-  margin: 32px 24px 32px 24px;
-
   width: 550px;
   height: 302px;
+  margin: 32px 24px;
 
   background-image: url('../images/information-main.jpg');
 }
@@ -143,7 +140,6 @@ html {
   font-family: Helvetica;
   font-size: 14px;
   color: #7D7D7D;
-
   line-height: 25px;
 }
 
@@ -153,15 +149,14 @@ html {
   font-family: Helvetica;
   font-size: 12px;
   color: #7D7D7D;
-
   line-height: 25px;
 }
 
 .motivation__leftblock {
   display: flex;
   flex-direction: column;
-  width: 423px;
   padding-bottom: 32px;
+  width: 423px;
 
   border-left: 1px solid #D6D6D6;
 }
@@ -169,7 +164,6 @@ html {
 .leftblock__wrapper {
   display: flex;
   align-items: center;
-
   margin-top: 16px;
 
   background-color: #FAFAFA;
@@ -241,9 +235,7 @@ html {
   justify-content: space-between;
   align-items: baseline;
   padding: 0 90px;
-
   margin-bottom: 32px;
-
 }
 
 .mobile-course-card {
@@ -271,7 +263,6 @@ html {
   font-family: Helvetica;
   font-size: 20px;
   line-height: 35px;
-
   color: #404040;
 }
 
@@ -295,7 +286,6 @@ html {
 }
 
 .project-body__thesis {
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -308,13 +298,12 @@ html {
 }
 
 .thesis__statement {
-  margin:32px 0 32px 0;
+  margin: 32px 0;
 
   font-family: Helvetica;
   font-size: 32px;
   font-weight: bold;
   line-height: 35px;
-
   color: #404040;
 }
 
@@ -333,7 +322,6 @@ html {
   font-family: Helvetica;
   font-size: 14px;
   color: #7D7D7D;
-
   line-height: 25px;
 }
 
@@ -375,7 +363,6 @@ html {
 }
 
 .right-block__text {
-
   margin-top: 24px;
   color: #7D7D7D;
 }
@@ -405,11 +392,6 @@ html {
   width: 553px;
 }
 
-/*• Block
-• Border
-• Background
-• Text
-Other*/
 
 @media (max-width: 599px) {
   .home-page {
@@ -474,7 +456,6 @@ Other*/
     padding: 0 16px;
 
     background-color: white;
-
   }
 
   .motivation__rightblock {
