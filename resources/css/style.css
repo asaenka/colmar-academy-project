@@ -544,8 +544,20 @@ Other*/
     display: none;
   }
 
+  .footer {
+    padding: 16px;
+    margin-top: 24px;
+
+    border-top: none;
+  }
+
   .footer__links {
     display: none;
+  }
+
+  .footer__copyright {
+    font-size: 14px;
+    margin-left: 0;
   }
 
   .thesis__left,
