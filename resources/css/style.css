@@ -122,6 +122,10 @@ html {
   background-color: #FFFFFF;
 }
 
+.project-body__motivation-link {
+  text-decoration: none;
+}
+
 .motivation__rightblock {
   width: 550px;
   padding: 32px 24px;
@@ -163,6 +167,10 @@ html {
   padding-bottom: 32px;
 
   border-left: 1px solid #D6D6D6;
+}
+
+.motivation__leftblock-link {
+  text-decoration: none;
 }
 
 .leftblock__wrapper {
@@ -245,10 +253,13 @@ html {
 }
 
 .course-card {
+  display: block;
   width: 264px;
   margin-bottom: 16px;
 
   background-color: #FFFFFF;
+
+  text-decoration: none;
 }
 
 .course-card__picture {
@@ -337,6 +348,10 @@ html {
 .right-block {
   display: flex;
   align-items: center;
+}
+
+.right-block-link {
+  text-decoration: none;
 }
 
 .right-block + .right-block {
