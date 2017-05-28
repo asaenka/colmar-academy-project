@@ -266,7 +266,7 @@ html {
 
 .course-card__info {
   padding: 16px 16px 24px;
-  height: 140px;
+  height: 180px;
 }
 
 .block__header {
@@ -350,22 +350,20 @@ html {
 .thesis__right {
   display: flex;
   flex-direction: column;
-
-  width: 423px;
+  margin-left: 16px;
 }
 
-.right-firstblock{
+.right-block {
   display: flex;
   align-items: center;
-
-  background-color: #D6D6D6;
 }
 
-.right-secondblock {
-  display: flex;
-  align-items: center;
-
+.right-block + .right-block {
   margin-top: 16px;
+}
+
+.right-block:hover {
+  background-color: #D6D6D6;
 }
 
 .right-block__picture {
