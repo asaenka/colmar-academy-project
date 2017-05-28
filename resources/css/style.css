@@ -5,6 +5,10 @@ body {
   font-family: Helvetica;
 }
 
+a {
+  text-decoration: none;
+}
+
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -55,7 +59,6 @@ html {
 .nav__link {
   padding: 16px;
 
-  text-decoration: none;
   color: black;
 }
 
@@ -108,27 +111,10 @@ html {
 
   font-weight: lighter;
   color: white;
-  text-decoration: none;
 }
 
 .hero-section__button:hover {
   opacity: 0.9;
-}
-
-.project-body__motivation {
-  display: flex;
-  justify-content: space-between;
-
-  background-color: #FFFFFF;
-}
-
-.project-body__motivation-link {
-  text-decoration: none;
-}
-
-.latest-articles__left-section {
-  width: 550px;
-  padding: 32px 24px;
 }
 
 .article-md__picture {
@@ -164,21 +150,25 @@ html {
 .latest-articles {
   display: flex;
   justify-content: space-between;
+
+  background-color: #FFFFFF;
+}
+
+.latest-articles__left-section {
+  width: 550px;
+  padding: 32px 24px;
 }
 
 .latest-articles__right-section {
   display: flex;
   flex-direction: column;
   padding-bottom: 32px;
+  margin-left: 40px;
 
   border-left: 1px solid #D6D6D6;
 }
 
-.motivation__leftblock-link {
-  text-decoration: none;
-}
-
-.leftblock__wrapper {
+.article-sm {
   display: flex;
   align-items: center;
   margin-top: 16px;
@@ -187,33 +177,33 @@ html {
   background-color: #FAFAFA;
 }
 
-.leftblock__wrapper:hover {
+.article-sm:hover {
   background-color: #D6D6D6;
 }
 
-.picture {
+.article-sm__picture {
   display: block;
   margin: 16px;
 }
 
-.picture--mobile {
+.article-sm__picture--mobile {
   display: none;
 }
 
-.picture__info {
+.article-sm__info {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.title {
+.article-sm__title {
   margin-bottom: 8px;
 
   font-size: 24px;
   color: #404040;
 }
 
-.info {
+.article-sm__description {
   margin-bottom: 8px;
 
   font-size: 14px;
@@ -221,9 +211,8 @@ html {
   color: #7D7D7D;
 }
 
-.leftblock__link {
+.article-sm__read-more {
   color: #7EC0EE;
-  text-decoration: none;
 }
 
 .project-body__learning {
@@ -264,7 +253,6 @@ html {
 
   background-color: #FFFFFF;
 
-  text-decoration: none;
 }
 
 .course-card__picture {
@@ -358,7 +346,6 @@ html {
 }
 
 .right-block-link {
-  text-decoration: none;
 }
 
 .right-block + .right-block {
@@ -402,7 +389,6 @@ html {
   margin-right: 16px;
 
   color: #7D7D7D;
-  text-decoration: none;
 }
 
 .video__container {
@@ -424,7 +410,6 @@ html {
   }
 
   .mobile-header__link {
-    text-decoration: none;
   }
 
   .header {
@@ -462,14 +447,7 @@ html {
     text-align: center;
   }
 
-  .project-body__motivation {
-    display: flex;
-    flex-direction: column;
-
-    border-bottom: 1px solid #D6D6D6;
-  }
-
-  .leftblock__wrapper {
+  .article-sm {
     display: flex;
     align-items: baseline;
     flex-direction: column;
@@ -479,24 +457,33 @@ html {
     background-color: white;
   }
 
+  .latest-articles {
+    display: flex;
+    flex-direction: column;
+
+    border-bottom: 1px solid #D6D6D6;
+  }
+
   .latest-articles__left-section {
     display: none;
   }
 
   .latest-articles__right-section {
     width: 100%;
+    margin-left: 0;
+    border-left: none;
   }
 
-  .picture {
+  .article-sm__picture {
     display: none;
   }
 
-  .picture--mobile {
+  .article-sm__picture--mobile {
     display: block;
     width: 100%;
   }
 
-  .picture__info {
+  .article-sm__info {
     padding: 8px 16px;
   }
 
@@ -528,7 +515,6 @@ html {
   .mobile-course-card__title {
     font-size: 18px;
     color: #404040;
-    text-decoration: none;
   }
 
   .thesis__right {
